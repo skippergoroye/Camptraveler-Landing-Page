@@ -1,9 +1,20 @@
-import Image from "next/image";
+import Hero from "@/sections/Hero";
+import Camp from "@/sections/Camp";
+import Features from "@/sections/Features";
+import GetApp from "@/sections/GetApp";
+import Guide from "@/sections/Guide";
+
+
+
 
 export default function Home() {
   return (
-    <main className="text-red-500">
-      <h1>hello</h1>
-    </main>
+    <>
+      <Hero />
+      <Camp />
+      <Guide />
+      <Features />
+      <GetApp />
+    </>
   );
 }
