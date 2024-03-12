@@ -3,7 +3,7 @@ import Button from "../components/Button";
 
 const Hero = () => {
   return (
-    <section className="border border-red-500 mx-auto max-w-[1440px] px-6 lg:px-20 2xl:px-0 flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
+    <section className="mx-auto max-w-[1440px] px-6 lg:px-20 2xl:px-0 flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
       <div className="hero-map" />
 
       {/* left */}
