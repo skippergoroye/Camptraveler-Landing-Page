@@ -8,6 +8,8 @@ interface CampProps {
   peopleJoined: string;
 }
 
+
+
 const CampSite = ({
   backgroundImage,
   title,
