@@ -1,13 +1,13 @@
 import Image from "next/image";
 
 
-
-
 type Props = {
   title: string;
   icon: string;
   description: string;
 };
+
+
 
 export default function FeatureItem({ title, icon, description }: Props) {
   return (
